@@ -1,6 +1,6 @@
-# centos7-tomcat-for-logbeat
+# centos7-tomcat-for-filebeat
 
-run with : docker run -d -P --env FRPASSWD=&lt;passwd&gt; --env FRLICENSE=&lt;license&gt; btooncall/centos7-tomcat-for-logbeat
+run with : docker run -d -P --env FRPASSWD=&lt;passwd&gt; --env FRLICENSE=&lt;license&gt; btooncall/centos7-tomcat-for-filebeat
 
 investigate ports : docker port &lt;container_id&gt;
 
